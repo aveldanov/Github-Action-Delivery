@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: aveldanov/Github-Action-Docker-Image-Files/.github/workflows/python-app.yml@main
+    uses: aveldanov/Github-Actions-Docker-Image-Integration/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       
